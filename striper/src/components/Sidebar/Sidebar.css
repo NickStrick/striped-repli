@@ -1,0 +1,24 @@
+.Sidebar{
+    min-width: 275px;
+    background-color: rgb(53,63,78);
+    min-height: 100vh;
+    padding: 5px;
+    padding-top: 20px;
+}
+.Sidebar .side-section{
+    color: white;
+    border-top: 2px solid rgb(40,46,58);
+}
+.Sidebar .side-head{
+    border-top: none;
+}
+.Sidebar .side-head .side-header{
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(191,67,94);
+    width: 92%;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}

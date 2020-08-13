@@ -1,0 +1,15 @@
+.side-section.search{
+    display: flex;
+}
+.side-section.search input{
+    margin: 0 auto;
+    width: 100%;
+    padding: 9px 9px;
+    border-radius: 8px;
+    font-size: .9rem;
+
+}
+.side-section.search input:focus{   
+    outline: none;
+    
+}

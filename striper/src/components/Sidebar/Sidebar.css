@@ -1,13 +1,18 @@
 .Sidebar{
-    min-width: 275px;
+    min-width: 220px;
+    max-width: 240px;
     background-color: rgb(53,63,78);
     min-height: 100vh;
-    padding: 5px;
+    padding: 20px;
     padding-top: 20px;
 }
 .Sidebar .side-section{
     color: white;
-    border-top: 2px solid rgb(40,46,58);
+    border-top: 1px solid rgb(40,46,58);
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(40,46,58);
+    margin-bottom: 5px;
+    padding: 30px 0;
 }
 .Sidebar .side-head{
     border-top: none;
@@ -15,10 +20,82 @@
 .Sidebar .side-head .side-header{
     font-size: 2.1rem;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: rgb(191,67,94);
-    width: 92%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 25px auto 35px;
     border-radius: 5px;
 
 }
+
+/*  nav section  */
+
+.Sidebar .side-nav{
+    height: 300px;
+    display: flex;
+}
+.Sidebar nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Sidebar nav .nav-section{
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid rgb(40,46,58);;
+}
+.Sidebar nav .nav-section.contacts{
+    border-bottom: none;
+}
+
+.Sidebar nav .nav-section a{
+    font-size: .85rem;
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding: 11px 11px;
+    border-radius: 5px;
+    
+    transition: background-color .4s linear;
+}
+
+.Sidebar nav .nav-section a:hover{
+    color: rgba(255, 255, 255, 1);
+    backGround-color: rgba(255, 255, 255, 0.2);
+}
+
+.Sidebar nav .nav-section a.active{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(43,51,65);
+    font-weight: bold;
+
+}
+
+
+/* side info styles */
+
+.Sidebar .side-info{
+
+}
+
+.Sidebar .side-info .info{
+    width: 100%;
+    background: rgb(43,51,65);
+    height: 100%;
+    border-radius: 5px;
+    padding: 16px 14px;
+    font-size: .85rem;
+    
+}
+.Sidebar .side-info .info p{
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    line-height: 1.6rem;
+    
+}
+.Sidebar .side-info .info p span{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1)
+}
+

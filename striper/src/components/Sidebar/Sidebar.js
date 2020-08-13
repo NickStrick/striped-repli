@@ -1,5 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
+import Search from './Search/Search.js';
+import Recentposts from './Recentposts/Recentposts.js';
 
 function Sidebar() {
   return (
@@ -24,6 +26,19 @@ function Sidebar() {
           
         </nav>
       </div>
+
+      <Search />
+
+      <div className={`side-section side-info`}>
+        <div className={'info'}>
+          <p><span>Striped:</span> A free and fully responsive HTML5 site template designed by AJ developed by Nick</p>
+        </div>
+      </div>
+
+      <div className={`side-section side-posts`}>
+        <Recentposts />
+      </div>
+      
       {/* <div className={`side-section`}></div>
       <div className={`side-section`}></div>
       <div className={`side-section`}></div>
